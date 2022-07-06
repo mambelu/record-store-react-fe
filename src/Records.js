@@ -43,6 +43,7 @@ function Records() {
                     if(r.id === record.id){
                         return record;
                     }
+                    return r;
                 }))
                 break;
             case "add":
